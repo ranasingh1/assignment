@@ -1,7 +1,6 @@
 
-body{
-  margin: 0;
-}
+
+
 /* topbar */
 .topbar{
   background-color:#00FF00;
@@ -19,9 +18,9 @@ body{
   padding-left: 5%;
 }
 .logo-button{
+	margin: 0;
   padding-left: 30%;
   padding-top: 2%;
-  margin-bottom: 2px;
 }
 /* navabar */
 .navabr-col{
@@ -60,7 +59,7 @@ color:#00FF00 ;
 }
 /* search */
 .column2{
-  
+  margin: --p-space-0;
   background-color: hsl(0, 0%, 7%);
 }
 .buttonofsearch {
@@ -125,6 +124,10 @@ color:#00FF00 ;
 	-o-transition-duration: 0.4s;
 	background-color: white;
 	color: black;
+}
+body{
+	overflow-x: hidden;
+
 }
 
 .search {
@@ -248,6 +251,9 @@ color:#00FF00 ;
 	display: inline-block;
 	font-size: 16px;
 	margin: 70px 5px;
+}
+#section4{
+	height:400px;
 }
 .section4text{
 	text-align: center;
