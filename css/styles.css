@@ -1,0 +1,336 @@
+
+body{
+  margin: 0;
+}
+/* topbar */
+.topbar{
+  background-color:#00FF00;
+}
+.topbar1{
+  padding-left: 10%;
+}
+.topbar2{
+  padding-left: 25%;
+}
+
+/* logo */
+.logo{
+  padding-top: 1%;
+  padding-left: 5%;
+}
+.logo-button{
+  padding-left: 30%;
+  padding-top: 2%;
+  margin-bottom: 2px;
+}
+/* navabar */
+.navabr-col{
+  padding-left: 15%;
+}
+.navbar{
+   background-color: #111;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-weight:700;
+  font-size:70%;
+}
+.navbar .navbar-nav .nav-link:hover {
+color:#00FF00 ;
+}
+.navbar .nav-item.active {
+  background-color: #00FF00;
+}
+.navbar .navbar-nav .nav-link.active{
+  background-color: #00FF00;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.navbar .nav-item {
+  padding: 0.5em;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    margin-top: 0.5em;
+  }
+}
+/* search */
+.column2{
+  
+  background-color: hsl(0, 0%, 7%);
+}
+.buttonofsearch {
+	display: inline-block;
+	background-color: #00FF00;
+	font-size: 14px;
+	line-height:222%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  [class*="buttonofsearch"] {
+    line-height: 252%;
+  }
+}
+
+.button:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+.search-button{
+  padding-left: 60%;
+}
+
+.search-container {
+	position: absolute;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	vertical-align: bottom;
+}
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 22px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.search {
+	position: absolute; 
+	background-color: white;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 340px;
+	padding: 0 0 0 0;
+}
+
+.expandright {
+	left: auto;
+	right: 40px; 
+}
+
+.expandright:focus {
+	padding: 0 0 0 0;
+}
+
+/* carousel */
+.c-item{
+  height: 300px;
+  width: 1400px;
+  
+}
+
+.c-img{
+  height: 100%;
+}
+.carousel-caption {
+  top: 0;
+  text-align: left;
+  bottom: auto;
+}
+.but-carou{
+	padding-right:10%;
+}
+.but-carou2{
+	 padding-left: 10%;
+}
+/* section1 */
+#section1{
+  font-family: 'Golos Text', sans-serif; ;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.input-group{
+  margin-top: 2%;
+  padding-left: 30%;
+  width: 70%;
+}
+.searchdomainbutton{
+	background-color: #00FF00;
+}
+.domain-container{
+	
+	margin:5%;
+	
+}
+.pricelisttext{
+	padding-top: 4px;
+}
+#section2{
+	font-family: 'Golos Text', sans-serif; 
+	margin-top: 2%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+
+}
+.pricing-column {
+	margin-top:2%;
+	margin-left: 6%;
+
+}
+.card-header{
+   height: 70px;
+}
+.price-text{
+	margin-top: 10px;
+}
+
+.card-footer{
+	background-color: #fff;
+	height: 20%;
+	padding-top: 8%;
+}
+
+#section3{
+	font-family: 'Golos Text', sans-serif; 
+	margin-top: 2%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+}
+.services-column{
+	margin-top:2%;
+	margin-left: 6%;
+
+}
+.section2button{
+	background-color:#00FF00;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 70px 5px;
+}
+.section4text{
+	text-align: center;
+}
+.section4link{
+	  margin-top: 4%;
+}
+#section5{
+	padding: 8%;
+	
+}
+.section5row{
+	font-family:'Golos Text', sans-serif ;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#section6{
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #444444;
+    font-size: 14px;
+    
+}
+.section6row{
+
+   color: #fff;
+   font-size: 14px;
+}
+#section6 .section6row ul{
+	list-style: none;
+	padding-left: 2%;
+}
+#section6 .section6row h3{
+	padding-top: 5%;
+	font-size: 20px;
+    font-weight:
+    color: #fff;
+    
+
+}
+#section6 .section6row a {
+	text-decoration: none;
+	color: #fff;
+    transition: 0.3s;
+    line-height: 2;
+}
+#section6 .section6row ul a:hover{
+	color:#00FF00
+}
+.subsbutton{
+	width: 150px;
+	margin-top: 6%;
+	color: #fff;
+	font-weight: bold;
+	background-color: #00FF00;
+}
+#footer-bottom{
+	padding-top: 3%;
+	padding-left: 9%;
+	padding-right: 10%;
+    font-size: 14px;
+	color: #fff;
+}
+.social-links{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+#footer-bottom a{
+	color: #fff;
+	padding-right: 1%;
+	
+}
+#footer-bottom a:hover{
+	color: #00FF00;
+}
+.paymentcol{
+	padding-left: 55%;
+}
+.payment-links{
+	font-size: 20px;
+	transition: 0.3s;
+	margin-bottom: 10%;
+}
